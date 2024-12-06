@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 1300px;
+    /* border: 1px solid black; */
+    margin: 0px auto;
+    position: relative;
+    top: 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px;
+    grid-gap: 20px;
+}
+
+.card {
+    background-color: white;
+    /* border: 1px solid gold; */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+p {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.grug {
+    width: 15px;
+    height: 15px;
+    background-color: rgb(199, 199, 199);
+    border-radius: 50%;
+    position: relative;
+    left: 300px;
+    top: -18px;
+}
+
+.vbv {
+    position: relative;
+    top: -2px;
+    left: 18px;
+    font-size: 18px;
+}
+
+span {
+    color: darkgrey;
+}
+
+.njnj {
+    width: 400px;
+    height: 200px;
+    margin-top: 20px;
+}
+
+.boi {
+    width: 200px;
+    height: 30px;
+    /* background-color: brown; */
+    margin-top: -70px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.boii {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid gray;
+}
+
+.hyhy {
+    margin-top: 20px;
+    word-spacing: 10px;
+    margin-left: 10px;
+}
+
+.n {
+    position: relative;
+    left: -10px;
+}
+
+.m {
+    position: relative;
+    left: -10px;
+}
+
+.btn {
+    width: 100px;
+    height: 30px;
+    background-color: chartreuse;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    position: relative;
+    top: -30px;
+    left: 290px;
+    transition: 0.5s;
+}
+.btn:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    background: none;
+    border: 1px solid chartreuse;
+    color: chartreuse;
+}
